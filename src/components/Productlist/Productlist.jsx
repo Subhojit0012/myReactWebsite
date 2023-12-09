@@ -18,32 +18,36 @@ const products = [
       name: 'Earthen Bottle',
       href: '#',
       price: '$48',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+      imageSrc: 'https://images.pexels.com/photos/1102777/pexels-photo-1102777.jpeg?auto=compress&cs=tinysrgb&w=600',
       imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
+      about: 'from AWS'
     },
     {
       id: 2,
       name: 'Nomad Tumbler',
       href: '#',
       price: '$35',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+      imageSrc: 'https://th.bing.com/th/id/OIP.lo76BM0GT_zmeAllzERJ3gHaEo?w=256&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7',
       imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
+      about: 'from XYZ'
     },
     {
       id: 3,
       name: 'Focus Paper Refill',
       href: '#',
       price: '$89',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+      imageSrc: 'https://images.pexels.com/photos/1070360/pexels-photo-1070360.jpeg?auto=compress&cs=tinysrgb&w=600',
       imageAlt: 'Person using a pen to cross a task off a productivity paper card.',
+      about: 'from ABC'
     },
     {
       id: 4,
       name: 'Machined Mechanical Pencil',
       href: '#',
       price: '$35',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+      imageSrc: 'https://images.pexels.com/photos/2385477/pexels-photo-2385477.jpeg?auto=compress&cs=tinysrgb&w=600',
       imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
+      about: 'from UI'
     },
     // More products...
   ]
@@ -65,6 +69,7 @@ const products = [
                   />
                 </div>
                 <h3 className="mt-4 text-sm text-gray-700">{product.name}</h3>
+                <h4 className="mt-3 text-sm text-gray-800">{product.about}</h4>
                 <p className="mt-1 text-lg font-medium text-gray-900">{product.price}</p>
               </a>
             ))}

@@ -112,7 +112,7 @@ export default function Header() {
           </a>
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          <a href="#" className="bg-violet-600 hover:bg-violet-700 active:bg-violet-800 focus:outline-none focus:ring focus:ring-violet-300 rounded-xl p-1.5 text-gray-100">
             Log in <span aria-hidden="true">&rarr;</span>
           </a>
         </div>
